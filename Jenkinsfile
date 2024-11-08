@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        JAVA_HOME = '/path/to/java11'  // Replace with the actual path to your Java 11 installation
+        JAVA_HOME = '/usr/bin/java'  // Replace with the actual path to your Java 11 installation
         PATH = "${JAVA_HOME}/bin:${env.PATH}"
     }
     stages {
